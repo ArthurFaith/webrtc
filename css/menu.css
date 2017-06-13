@@ -1,0 +1,120 @@
+.room-meun{
+	background-color: #00838F;
+    height: 40px;
+    width: 100%;
+    padding-left: 20px;
+}
+.room-meun ul li {
+	float: left;
+	margin-right: 20px;
+	font-size: 0.9em;
+	line-height: 40px;
+	color: white;
+}
+.room-close{
+	background: url('../img/close.png') no-repeat center center;
+	width: 40px;height: 40px;
+	cursor: pointer;
+}
+.room-close:hover{
+	background-color: #AA0000;
+}
+.room-screen{
+	background-color: #fff; 
+    height: auto;
+    width: 100%;
+    padding-left: 20px;
+    border-bottom: 1px solid #d1d1d1;
+}
+.room-screen ul li{
+	float: left;
+	margin-right: 20px;
+	font-size: 0.9em;
+	line-height: 32px;
+	color: white;	
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding: 0 6px 0 30px;
+	background-color: #00ACC1;/*009999*/
+	border-radius: 4px;
+	cursor: pointer;
+}
+.room-screen ul li:hover{
+	background-color: #009999;
+}
+.bgc009999{
+	background-color: #009999;
+}
+.room-video{
+	background: url('../img/video.png') no-repeat 6px center;	
+}
+.room-none{
+	background: url('../img/白板.png') no-repeat 6px center;	
+}
+.room-share{
+	background: url('../img/共享.png') no-repeat 6px center;	
+}
+.room-together{
+	background: url('../img/together.png') no-repeat 6px center;	
+}
+.room-two{
+	background: url('../img/two.png') no-repeat 6px center;	
+}
+.room-four{
+	background: url('../img/four.png') no-repeat 6px center;	
+}
+.room-six{
+	background: url('../img/six.png') no-repeat 6px center;	
+}
+.room-nine{
+	background: url('../img/nine.png') no-repeat 6px center;	
+}
+
+.room-bottom{
+	background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    right: 70%;
+    height: 40px;
+    width: 100%;
+    padding-left: 20px;
+    background-color: #00838F;
+}
+.room-bottom ul li{
+	float: left;
+	margin-right: 20px;
+	font-size: 0.9em;
+	line-height: 40px;
+	color: white;	
+	padding: 0 6px 0 32px;
+	cursor: pointer;
+	background-size: 26px 26px;
+}
+.room-set{
+	background: url('../img/设置.png') no-repeat left center;	
+}
+.room-say{
+	background: url('../img/麦克风.png') no-repeat left center;	
+}
+.room-say-close{
+	background: url('../img/麦克风关闭.png') no-repeat left center;	
+}
+.room-head{
+	background: url('../img/摄像头.png') no-repeat left center;	
+}
+.room-head-close{
+	background: url('../img/摄像头关闭.png') no-repeat left center;	
+}
+.room-change{
+	background: url('../img/调节.png') no-repeat left center;	
+}
+.room-sound{
+	background: url('../img/录音.png') no-repeat left center;	
+}
+.room-record{
+	background: url('../img/摄像.png') no-repeat left center;	
+}
+.room-file{
+	background: url('../img/文件.png') no-repeat left center;	
+}

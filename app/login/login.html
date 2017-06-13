@@ -1,0 +1,54 @@
+
+<div class="join">
+    <div id="join-title">Taojin Room</div>
+
+    <div class="card" id="join">
+        <form role="form" ng-submit="register(room)" accept-charset="UTF-8">
+
+            <div class="card__content">
+                <lx-text-field label="用户名">
+                    <input type="text" id="name" ng-model="room.userName" required>
+                </lx-text-field>
+
+                <div class="grid">
+
+                    <div class="grid__col6">
+                        <lx-text-field label="会议室">
+                            <input type="text" id="roomName" ng-model="room.roomName" required>
+                        </lx-text-field>
+                    </div>
+
+                    <div class="grid__col6">
+                        <lx-select ng-model="room.roomName" placeholder="选择一个存在的会议室" choices="listRooms" floating-label>
+                            <lx-select-selected>
+                                {{ $selected}}
+                            </lx-select-selected>
+
+                            <lx-select-choices>
+                                {{ $choice}}
+                            </lx-select-choices>
+                        </lx-select>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card__actions">
+                <div class="grid">
+                    <div class="grid__col6">
+                        <button class="btn btn--l btn--blue btn--raised" lx-ripple type="button" ng-click="clear()">清除</button>
+                    </div>
+                    <div class="grid__col6">
+                        <button id="joinBtn" class="btn btn--l btn--green btn--raised" lx-ripple type="submit" >加入会议室！</button>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+        </form>
+    </div>
+
+
+</div>
+
